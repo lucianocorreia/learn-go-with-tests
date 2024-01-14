@@ -1,4 +1,4 @@
-package main
+package hello
 
 import "testing"
 
@@ -30,4 +30,5 @@ func assertCorrectMessage(t *testing.T, got, want string) {
 	if got != want {
 		t.Errorf("got %q want %q", got, want)
 	}
+
 }
